@@ -1,0 +1,94 @@
+/* FONTS IMPORTED */
+/* Redaction 50 */
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Share+Tech&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&family=Unlock&display=swap');
+/* Tiny5 Duo */
+@import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&family=Share+Tech&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&family=Unlock&display=swap');
+
+:root{
+    --base-color: #d9efbd;
+    --text-color: #450c3f;
+    --primary-color: #a33e79;
+    --secondary-color: #b9d175;
+    --color-1: #f5fbda;
+    --color-2: lavender;
+    --color-3: black;
+}
+
+/* univeral selector -> removes default sets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* base styles for the whole page */
+html{
+    font-family: "Redaction 50",'Times New Roman', Times, serif;
+    color: var(--text-color);
+}
+
+body{
+    padding: 5em 5em;
+    background-color: var(--base-color);
+}
+
+h1,h2{
+    font-family: "Tiny5 Duo",'Times New Roman', Times, serif;
+    color: var(--color-1);
+    text-align: center;
+    margin: .75em;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* info care block */
+.flex-container{
+    margin: 2em auto;
+    width: min(75em, 100%);
+    border-radius: 10em;
+    background-color: var(--primary-color);
+    padding: min(5em, 15%);
+
+}
+.pfp{
+    border-radius: 10em;
+    border:5px solid var(--secondary-color);
+    display: block;
+    margin: 2em auto;
+    
+}
+
+
+.links-section ul{
+   list-style-type: none;
+   padding: 2em;
+ 
+}
+.links-section li{
+    padding: 2em;
+    text-align: center;
+}
+.links-section a{
+    text-decoration: none;
+    color: var(--color-3);
+    font-size: larger;
+}
+
+.cta-button{
+    margin: 5em auto;
+    padding: 1em 6em;
+    border-radius: 10px;
+
+    background-color: var(--secondary-color);
+}
+.cta-button:hover{
+    background-color: var(--color-1);
+
+}
+
+
+
+
